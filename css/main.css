@@ -1,0 +1,147 @@
+.carousel-item {
+  margin-top: 0px;
+  height: 75vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.secondary-page-photo{
+  margin-top: 0px;
+  height: 50vh;
+  min-height: 250px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.bigger{
+  font-size: 175%;
+}
+
+.intro-paragraph{
+margin-top: 5%;
+margin-bottom: 5%;
+max-width: 60%;
+}
+
+.boxers img{
+  height: 20vh;
+  min-height: 300px;
+  width: 100%;
+}
+
+.boxers p{
+  margin-top: 7%;
+  margin-bottom: 20%
+}
+
+.boxer-col{
+  padding-left: 3%;
+  padding-right: 3%;
+}
+.nav-link, .navbar-brand{
+  font-size: 1.25rem;
+}
+
+body{
+  /* background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%); */
+  font-family: 'IBM Plex Serif', serif;
+}
+
+h1, h2, h3, h4, h5, h6, .navbar{
+font-family: 'Oswald', sans-serif;
+}
+
+h1.super-title {
+  font-size: 4.5rem;
+  color: white;
+  font-weight: bold;
+}
+
+h1.secondary-title {
+  font-size: 3.5rem;
+  color: white;
+}
+
+.home-text{
+  color: white;
+  font-size: 1.75rem;
+}
+
+#boxingTitle{
+  margin-top: 20px;
+  font-size: 3rem;
+  display:flex;
+  align-items:center;
+  justify-content: center;
+}
+
+.profile-image img{
+  height: 25vh;
+  min-height: 200px;
+}
+
+.books-card{
+  width: 18rem;
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+
+.quote-card{
+  margin-top: 5%;
+  margin-bottom: 10%;
+  border-color: #041438;
+  border-width: 2px;
+}
+
+.intro-paragraph-books{
+margin-top: 5%;
+margin-bottom: 5%;
+max-width: 60%;
+}
+
+footer .icon {
+  height: 25px;
+  color: rgba(255,255,255,.5);
+}
+
+
+.footer-col{
+  height: 10vh;
+  display: flex;
+  align-items: center;
+}
+
+.footer-col p{
+  margin-bottom: 0px;
+}
+
+footer p{
+  color: #ffff;
+}
+
+.icon{
+  padding-left: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    background-color: #ff6200;
+    color: white;
+  }
+  .card {
+      max-width:100%;
+      width: 100%;
+  }
+  .col-sm{
+      width:100%;
+      float:left;
+      margin:0;
+  }
+}
